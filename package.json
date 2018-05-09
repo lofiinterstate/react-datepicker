@@ -4,7 +4,7 @@
   "description": "A simple and reusable datepicker component for React",
   "version": "2.5.0",
   "license": "MIT",
-  "homepage": "https://github.com/Hacker0x01/react-datepicker",
+  "homepage": "https://github.com/lofiinterstate/react-datepicker",
   "main": "lib/index.js",
   "module": "es",
   "unpkg": "dist/react-datepicker.min.js",
@@ -25,10 +25,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/Hacker0x01/react-datepicker.git"
+    "url": "git://github.com/lofiinterstate/react-datepicker.git"
   },
   "bugs": {
-    "url": "https://github.com/Hacker0x01/react-datepicker/issues"
+    "url": "https://github.com/lofiinterstate/react-datepicker/issues"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
