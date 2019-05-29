@@ -71,16 +71,18 @@ export default class PopperComponent extends React.Component {
     }
 
     return (
-      <Manager>
-        <Reference>
-          {({ ref }) => (
-            <div ref={ref} className="react-datepicker-wrapper">
-              {targetComponent}
-            </div>
-          )}
-        </Reference>
-        {popper}
-      </Manager>
+        <Manager>
+          <div>
+            <Reference>
+              {({ ref }) => (
+                <div ref={ref} className="react-datepicker-wrapper">
+                  {targetComponent}
+                </div>
+              )}
+            </Reference>
+          {popper}
+          </div>
+        </Manager>
     );
   }
 }
